@@ -1,0 +1,84 @@
+#usuario, #carrito {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#usuario form, #carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #483696;
+}
+
+header {
+    background: #03105c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#usuario, #carrito {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#usuario form, #carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#usuario input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#usuario button, #carrito button {
+    padding: 10px;
+    border: none;
+    background: #03105c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#carrito ul {
+    list-style: none;
+    padding: 0;
+}
+
